@@ -1,0 +1,30 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .popular h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 0; /* Reset margin */
+  }
+  
+  .popular hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin-bottom: 20px; /* Add margin to separate from content below */
+  }
+  
+  .popular-item {
+    margin-top: 20px; /* Adjusted margin-top for spacing */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 30px;
+    justify-content: center; /* Center items horizontally */
+  }
+  
